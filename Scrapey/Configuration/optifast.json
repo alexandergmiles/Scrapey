@@ -1,0 +1,100 @@
+[
+  {
+    "ID": "0",
+    "URL": "https://www.optifast.co.uk/chocolate-meal-bar/12367177.html",
+    "NameXPath": "//h1[@class='productName_title']",
+    "PriceXPath": "//p[@class='productPrice_price  ']",
+    "ScoreXPath": "//span[@class='athenaProductReviews_aggregateRatingValue']",
+    "NutrientInformationXPath": "//*[@id='product-description-content-lg-8']/div/div/div/table",
+    "IngredientsXPath": "//*[@id='product-description-content-lg-8']/div/div/div/table",
+    "PictureXPaths": [
+      "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12367177-1984978856358567.jpg",
+      "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12367177-4994767865635099.jpg",
+      "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12367177-1714978856431215.jpg",
+      "https://static.thcdn.com/images/small/webp//productimg/130/130/12367177-1834983548537817.jpg",
+      "https://static.thcdn.com/images/small/webp//productimg/130/130/12367177-8544764798425736.jpg",
+      "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12367177-1444768334670978.jpg"
+    ],
+    "PageType": 0
+  },
+  {
+    "ID": "1",
+    "URL": "https://www.optifast.co.uk/berry-meal-bar/12367176.html",
+    "PictureXPaths": [ 
+      "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12367176-1404978859306358.png",
+      "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12367176-8564824625698987.jpg",
+      "https://static.thcdn.com/images/small/webp//productimg/130/130/12367176-4274978859407356.png",
+      "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12367176-2054983549325626.jpg"
+   ],
+    "PageType": 0
+  },
+  {
+    "ID": "2",
+    "URL": "https://www.optifast.co.uk/cereal-meal-bar/12367178.html",
+    "PictureXPaths": [ 
+      "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12367178-1164978859593317.jpg",
+      "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12367178-1794824625766589.jpg",
+      "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12367178-7584978859550534.jpg",
+      "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12367178-1874978859640900.jpg" 
+    ],
+    "PageType": 0
+  },
+  {
+    "ID": "3",
+    "URL": "https://www.optifast.co.uk/cereal-meal-bar/12367178.html",
+    "PictureXPaths": [ 
+      "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12367175-1204978858780383.png",
+      "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12367175-1544824625665012.jpg",
+      "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12367175-1704978858976985.png",
+      "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12367175-1944983549857748.jpg" 
+    ],
+    "PageType": 0
+  },
+  {
+    "ID": "4",
+    "URL": "https://www.optifast.co.uk/berry-meal-bar/13762027.html",
+    "PictureXPaths": [ 
+      "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13762027-4894978859287881.png",
+      "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12367176-8564824625698987.jpg",
+      "https://static.thcdn.com/images/small/webp//productimg/130/130/13762027-1434978859375547.png",
+      "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13762027-2634983549193377.jpg" 
+    ],
+    "PageType": 0
+  },
+  {
+    "ID": "5",
+    "URL": "https://www.optifast.co.uk/cappuccino-meal-bar/13762025.html",
+    "PictureXPaths": [ 
+      "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13762025-1894978858709745.png",
+      "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12367175-1544824625665012.jpg",
+      "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13762025-8734978858952424.png",
+      "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13762025-1014983549818022.jpg"
+    ],
+    "PageType": 0
+  },
+  {
+    "ID": "6",
+    "URL": "https://www.optifast.co.uk/nutrition-and-supplements/optifast-meal-bar-chocolate-1-month-supply-6-boxes-36-bars/13762026.html",
+    "PictureXPaths": [ 
+      "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13762026-2034978856328702.jpg",
+      "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12367177-4994767865635099.jpg",
+      "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13762026-1724978856431890.jpg",
+      "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13762026-8424983548735748.jpg",
+      "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12367177-8544764798425736.jpg",
+      "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12367177-1444768334670978.jpg"
+     ],
+    "PageType": 0
+  },
+  {
+    "ID": "7",
+    "URL": "https://www.optifast.co.uk/cereal-meal-bar/13762028.html",
+    "ScoreXPath": "//span[@class='athenaProductReviews_aggregateRatingValue']",
+    "PictureXPaths": [ 
+      "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13762028-1304978858636977.jpg",
+      "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12367178-1794824625766589.jpg",
+      "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13762028-1464978858546665.jpg",
+      "https://static.thcdn.com/images/small/webp//productimg/130/130/13762028-1314978858718475.jpg"
+     ],
+    "PageType": 0
+  }
+]

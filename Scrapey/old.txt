@@ -1,0 +1,218 @@
+﻿      /*
+        public static async Task<List<Objects.Product>> ScrapeSlimFast()
+        {
+            var products = new List<Objects.Product>();
+            var scraper = new Scraper();
+
+            var slimFast = new List<LighterLifeBar>();
+            var inputFile = @"C:/Users/Alexa/Desktop/Product Files Complete/slimfast.json";
+            using (StreamReader file = File.OpenText(inputFile))
+            {
+                slimFast = JsonConvert.DeserializeObject<List<LighterLifeBar>>(file.ReadToEnd());
+            }
+
+            foreach (var item in slimFast)
+            {
+                scraper.Scrape(item.URL);
+
+                var name = scraper.GetInnerTextFromXPath(item.NameXPath);
+                Console.WriteLine($"Getting: {name.Trim()}");
+                var price = scraper.GetInnerTextFromXPath(item.PriceXPath);
+                price = price.Replace("&pound;", "");
+                var score = scraper.GetInnerTextFromXPath(item.ScoreXPath);
+                var ingredients = scraper.GetInnerTextFromXPath(item.IngredientsXPath);
+                var nutrientsTable = scraper.GetChildrenNodes(item.NutrientInformationXPath);
+                var mineralsTable = scraper.GetChildrenNodes(item.MineralsInformationXPath);
+                var nuterientsProcessed = scraper.ProcessTable(nutrientsTable[1], 3);
+                var mineralsProcessed = scraper.ProcessTable(mineralsTable[1], 3);
+                products.Add(GetProduct(nuterientsProcessed, mineralsProcessed, ingredients, name, score, price));
+                //Console.WriteLine($"Price: {price.Trim()} \nIngredients: {ingredients.Length}\n Minerals: {mineralsProcessed.Count} ");
+            }
+            return products;
+        }
+        public static async Task<List<Objects.Product>> ScrapeSlimSave()
+        {
+            var products = new List<Objects.Product>();
+            var scraper = new Scraper();
+
+            var optifastProducts = new List<LighterLifeBar>();
+            var inputFile = @"C:/Users/Alexa/Desktop/Product Files Complete/slimsave.json";
+            using (StreamReader file = File.OpenText(inputFile))
+            {
+                optifastProducts = JsonConvert.DeserializeObject<List<LighterLifeBar>>(file.ReadToEnd());
+            }
+
+            foreach (var item in optifastProducts)
+            {
+
+
+                var name = scraper.GetInnerTextFromXPath(item.NameXPath);
+                var price = scraper.GetInnerTextFromXPath(item.PriceXPath);
+                price = price.Replace("&pound;", "");
+                var ingredients = scraper.GetInnerTextFromXPath(item.IngredientsXPath);
+                var score = scraper.GetInnerTextFromXPath(item.ScoreXPath);
+                var nutrientsTable = scraper.GetChildrenNodes(item.NutrientInformationXPath);
+                var mineralsTable = scraper.GetChildrenNodes(item.MineralsInformationXPath);
+                var nuterientsProcessed = scraper.ProcessTable(nutrientsTable[1], 4);
+                var mineralsProcessed = scraper.ProcessTable(mineralsTable[1], 4);
+                Console.WriteLine($"Getting: {name.Trim()}");
+                Console.WriteLine($"Price: {price.Trim()} \nIngredients: {ingredients.Length}\n Minerals: {mineralsProcessed.Count} ");
+                Console.WriteLine();
+
+                products.Add(GetProduct(nuterientsProcessed, mineralsProcessed, ingredients, name, score, price));
+            }
+            return products;
+        }
+
+        public static async Task<List<Objects.Product>> ScrapeOptifastBars()
+        {
+            var products = new List<Objects.Product>();
+            var scraper = new Scraper();
+
+            var optifastProducts = new List<LighterLifeBar>();
+            var inputFile = @"C:/Users/Alexa/Desktop/Product Files Complete/optifast_bars.json";
+            using (StreamReader file = File.OpenText(inputFile))
+            {
+                optifastProducts = JsonConvert.DeserializeObject<List<LighterLifeBar>>(file.ReadToEnd());
+            }
+
+            foreach (var item in optifastProducts)
+            {
+                scraper.Scrape(item.URL);
+
+                var name = scraper.GetInnerTextFromXPath(item.NameXPath);
+                var price = scraper.GetInnerTextFromXPath(item.PriceXPath);
+                price = price.Replace("&pound;", "");
+                var ingredients = scraper.GetInnerTextFromXPath(item.IngredientsXPath);
+                var score = scraper.GetInnerTextFromXPath(item.ScoreXPath);
+                var nutrientsTable = scraper.GetChildrenNodes(item.NutrientInformationXPath);
+                var mineralsTable = scraper.GetChildrenNodes(item.MineralsInformationXPath);
+                var nuterientsProcessed = scraper.ProcessTable(nutrientsTable[3], 7);
+                var mineralsProcessed = scraper.ProcessTable(nutrientsTable[3], 7);
+                Console.WriteLine($"Getting: {name.Trim()}");
+                Console.WriteLine($"Price: {price.Trim()} \nIngredients: {ingredients.Length}");
+                Console.WriteLine();
+
+                products.Add(GetProduct(nuterientsProcessed, mineralsProcessed, ingredients, name, score, price));
+            }
+            return products;
+        }
+        
+                 public static async Task<List<Objects.Product>> ScrapeShakeThatWeight()
+        {
+            var products = new List<Objects.Product>();
+            var scraper = new Scraper();
+
+            var slimFast = new List<LighterLifeBar>();
+            var inputFile = @"C:/Users/Alexa/Desktop/Product Files Complete/shakethatweight.json";
+            using (StreamReader file = File.OpenText(inputFile))
+            {
+                slimFast = JsonConvert.DeserializeObject<List<LighterLifeBar>>(file.ReadToEnd());
+            }
+
+            foreach (var item in slimFast)
+            {
+                Console.WriteLine(item.URL);
+                scraper.Scrape(item.URL);
+
+                var name = scraper.GetInnerTextFromXPath(item.NameXPath);
+                Console.WriteLine($"Getting: {name.Trim()}");
+                var price = scraper.GetInnerTextFromXPath(item.PriceXPath);
+                price = price.Replace("&pound;", "");
+                var ingredients = scraper.GetInnerTextFromXPath(item.IngredientsXPath);
+                ingredients = ingredients.Replace("&nbsp;", "");
+                var nutrientsTable = scraper.GetChildrenNodes(item.NutrientInformationXPath);
+                var mineralsTable = scraper.GetChildrenNodes(item.MineralsInformationXPath);
+                var score = scraper.GetInnerTextFromXPath(item.ScoreXPath);
+                var nuterientsProcessed = scraper.ProcessTable(nutrientsTable[5], 3);
+                var mineralsProcessed = scraper.ProcessTable(mineralsTable[5], 5);
+                Console.WriteLine($"Price: {price.Trim()} \nIngredients: {ingredients.Length}\n Minerals: {mineralsProcessed.Count} ");
+                products.Add(GetProduct(nuterientsProcessed, mineralsProcessed, ingredients, name, score, price));
+            }
+
+            return products;
+        }
+        
+        public static async Task<List<Objects.Product>> ScrapeLighterLifeBars()
+        {
+            var products = new List<Objects.Product>();
+            var scraper = new Scraper();
+
+            var lighterLifeProducts = new List<LighterLifeBar>();
+            var inputFile = @"C:/Users/Alexa/Desktop/Product Files Complete/lighterlife_bars.json";
+
+            using (StreamReader file = File.OpenText(inputFile))
+            {
+                lighterLifeProducts = JsonConvert.DeserializeObject<List<LighterLifeBar>>(file.ReadToEnd());
+            }
+
+            foreach (var item in lighterLifeProducts)
+            {
+                Console.WriteLine("Downloading page content...");
+                var content = "";
+                using (var browser = await Puppeteer.LaunchAsync(new LaunchOptions { Headless = false, ExecutablePath = @"C:\Program Files\Google\Chrome\Application\chrome.exe" }))
+                {
+                    var page = await browser.NewPageAsync();
+                    await page.GoToAsync(item.URL);
+                    content = await page.GetContentAsync();
+                }
+                Console.WriteLine("Scraping page...");
+                scraper.ScrapeFromPage(content);
+
+                var name = scraper.GetInnerTextFromXPath(item.NameXPath);
+                var price = scraper.GetInnerTextFromXPath(item.PriceXPath);
+                price = price.Replace("&pound;", "");
+                var ingredients = scraper.GetInnerTextFromXPath(item.IngredientsXPath);
+                var nutrientsTable = scraper.GetChildrenNodes(item.NutrientInformationXPath);
+                var mineralsTable = scraper.GetChildrenNodes(item.MineralsInformationXPath);
+                var score = scraper.GetInnerTextFromXPath(item.ScoreXPath);
+                var nutrients = scraper.ProcessTable(nutrientsTable[2], 5);
+                var minerals = scraper.ProcessTable(mineralsTable[2], 5);
+                Console.WriteLine($"Getting: {name}");
+                Console.WriteLine($"Price: {price} \nIngredients: {ingredients.Length} Nutrients: {nutrients.Count}\nMinerals: {minerals.Count}");
+                Console.WriteLine();
+                products.Add(GetProduct(nutrients, minerals, ingredients, name, score, price));
+            }
+            return products;
+        }
+        public static async Task ScrapeExanteBars()
+        {
+
+            var products = new List<Objects.Product>();
+            var scraper = new Scraper();
+
+            var exanteProducts = new List<ExanteProduct>();
+            var inputFile = @"C:/Users/Alexa\Desktop/Product Files Complete/v2_exante_bars.json";
+
+            using (StreamReader file = File.OpenText(inputFile))
+            {
+                exanteProducts = JsonConvert.DeserializeObject<List<ExanteProduct>>(file.ReadToEnd());
+            }
+
+            foreach (var item in exanteProducts)
+            {
+                scraper.Scrape(item.URL);
+
+                var name = scraper.GetInnerTextFromXPath(item.NameXPath);
+                var price = scraper.GetInnerTextFromXPath(item.PriceXPath);
+                var ingredients = scraper.GetInnerTextFromXPath(item.IngredientsXPath);
+                var nut = scraper.GetChildrenNodes(item.NutrientInformationXPath);
+                Console.WriteLine($"Processing {name}");
+                var nutInfo = new List<List<string>>();
+                if (item.PageType == 0)
+                {
+                    nutInfo = scraper.ProcessTable(nut[3], 3);
+                }
+                else if (item.PageType == 1)
+                {
+                    nutInfo = scraper.ProcessTable(nut[2], 5);
+                }
+                else if (item.PageType == 2)
+                {
+                    nutInfo = scraper.ProcessTable(nut[3], 3);
+                }
+                Console.WriteLine($"name: {name.Trim()} \n price: {price.Trim()} \n ingredients: {ingredients.Length} \n Nutritional information: {nutInfo.Count}");
+                //products.Add(GetProduct(nutrients, minerals, ingredients, name, score, price));
+            }
+        }
+         */
