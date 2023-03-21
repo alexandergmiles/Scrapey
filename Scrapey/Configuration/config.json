@@ -1,0 +1,34 @@
+﻿{
+  "productFiles": [
+    {
+      "Name": "LighterLife",
+      "FilePath": "Configuration/lighterlife.json",
+      "OutputFile": "Output/lighterlife_result.csv"
+    },
+    {
+      "Name": "OptiFast",
+      "FilePath": "Configuration/optifast.json",
+      "OutputFile": "Output/OptiFast_result.csv"
+    },
+    {
+      "Name": "ShakeThatWeight",
+      "FilePath": "Configuration/shakethatweight.json",
+      "OutputFile": "Output/ShakeThatWeight_result.csv"
+    },
+    {
+      "Name": "SlimFast",
+      "FilePath": "Configuration/slimfast.json",
+      "OutputFile": "Output/SlimFast_result.csv"
+    },
+    {
+      "Name": "SlimSave",
+      "FilePath": "Configuration/slimsave.json",
+      "OutputFile": "Output/slimsave_result.csv"
+    },
+    {
+      "Name": "Exante",
+      "FilePath": "Configuration/exante.json",
+      "OutputFile": "Output/exante_result.csv"
+    }
+  ]
+}

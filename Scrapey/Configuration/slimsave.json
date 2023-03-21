@@ -1,0 +1,50 @@
+[
+  {
+    "ID": "0",
+    "URL": "https://slimandsave.co.uk/shop/meal-replacement/bars/chewy-chocolate-bar/",
+    "NameXPath": "//h1[@class='product_title entry-title']",
+    "PriceXPath": "//span[@class='woocommerce-Price-amount amount']",
+    "ScoreXPath": "",
+    "NutrientInformationXPath": "//*[@id='nutritional']/div/div/div/div[3]/div[1]/table",
+    "MineralsInformationXPath": "//*[@id='nutritional']/div/div/div/div[3]/div[2]/table",
+    "IngredientsXPath": "//*[@id='ingredients-content']",
+    "PictureXPaths": [ "https://slimandsave.co.uk/wp-content/uploads/2021/04/chewy-chocolate-bar.jpg" ],
+    "PageType": 0
+  },
+  {
+    "ID": "1",
+    "URL": "https://slimandsave.co.uk/shop/meal-replacement/bars/crispy-caramel/",
+    "PictureXPaths": [ "https://slimandsave.co.uk/wp-content/uploads/2021/01/crispy-caramel.jpg" ],
+    "PageType": 0
+  },
+  {
+    "ID": "2",
+    "URL": "https://slimandsave.co.uk/shop/meal-replacement/bars/milk-chocolate-truffa-bar/",
+    "PictureXPaths": [ "https://slimandsave.co.uk/wp-content/uploads/2021/04/milk-chocolate-truffa-bar.jpg" ],
+    "PageType": 0
+  },
+  {
+    "ID": "3",
+    "URL": "https://slimandsave.co.uk/shop/meal-replacement/bars/mint-truffa/",
+    "PictureXPaths": [ "https://slimandsave.co.uk/wp-content/uploads/2021/04/mint-chocolate-truffa-bar.jpg" ],
+    "PageType": 0
+  },
+  {
+    "ID": "4",
+    "URL": "https://slimandsave.co.uk/shop/meal-replacement/bars/orange-truffa-bar/",
+    "PictureXPaths": [ "https://slimandsave.co.uk/wp-content/uploads/2021/04/orange-truffa-bar.jpg" ],
+    "PageType": 0
+  },
+  {
+    "ID": "5",
+    "URL": "https://slimandsave.co.uk/shop/meal-replacement/bars/white-chocolate-coated-crispy-strawberry/",
+    "PictureXPaths": [ "https://slimandsave.co.uk/wp-content/uploads/2021/04/crispy-strawberry-bar.jpg" ],
+    "PageType": 0
+  },
+  {
+    "ID": "6",
+    "URL": "https://slimandsave.co.uk/shop/meal-replacement/bars/white-chocolate-coated-lemon/",
+    "PictureXPaths": [ "https://slimandsave.co.uk/wp-content/uploads/2021/04/white-chocolate-coated-lemon-bar.jpg" ],
+    "PageType": 0
+  }
+]

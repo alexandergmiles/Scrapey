@@ -1,12 +1,13 @@
-﻿using System;
+﻿using PuppeteerSharp;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Scrapey
+namespace Scrapey.Objects
 {
-    internal class HtmlWriter
+    public class VendorExtensions
     {
     }
 }

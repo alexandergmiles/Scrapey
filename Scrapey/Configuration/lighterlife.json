@@ -1,0 +1,63 @@
+[
+  {
+    "ID": "0",
+    "URL": "https://www.lighterlife.com/shop/salted-caramel-bar/",
+    "NameXPath": "//h1[@class='product_title entry-title']",
+    "PriceXPath": "//span[@class='woocommerce-Price-amount amount']/bdi",
+    "ScoreXPath": "//strong[@class='rating']",
+    "NutrientInformationXPath": "//*[@id='tab-vitamins_nutrients']/div/div[2]/div[1]/table",
+    "MineralsInformationXPath": "/html/body/div[1]/div/div[2]/main/div[3]/div[3]/div[4]/div/div[2]/div[2]/table",
+    "IngredientsXPath": "//*[@id='tab-description']/p[11]",
+    "PictureXPaths": [ "https://www.lighterlife.com/wp-content/uploads/2021/04/600x373px-Salted-Caramel-Bar.jpg", "https://www.lighterlife.com/wp-content/uploads/2021/09/600x373px_Foodpacks31.jpg" ],
+    "PageType": 0
+  },
+  {
+    "ID": "1",
+    "URL": "https://www.lighterlife.com/shop/chocolate-peanut-meal-replacement-bar-1/",
+    "IngredientsXPath": "//*[@id='tab-description']/p[2]",
+    "PictureXPaths": [ "https://www.lighterlife.com/wp-content/uploads/2021/01/600x373px-Choc-Peanut-Bar.jpg", "https://www.lighterlife.com/wp-content/uploads/2022/04/600x373px_Foodpacks36.jpg" ],
+    "PageType": 0
+  },
+  {
+    "ID": "2",
+    "URL": "https://www.lighterlife.com/shop/double-chocolate-meal-replacement-bar/",
+    "IngredientsXPath": "/html/body/div[1]/div/div[2]/main/div[3]/div[3]/div[1]/p[2]",
+    "PictureXPaths": [ "https://www.lighterlife.com/wp-content/uploads/2021/01/600x373px-Double-Choc-Bar-1-100x100", "https://www.lighterlife.com/wp-content/uploads/2022/04/600x373px_Foodpacks29.jpg" ],
+    "PageType": 0
+  },
+  {
+    "ID": "3",
+    "URL": "https://www.lighterlife.com/shop/chocolate-raisin-bar/",
+    "IngredientsXPath": "//*[@id='tab-description']/p[3]",
+    "PictureXPaths": [ "https://www.lighterlife.com/wp-content/uploads/2021/01/600x373px-Double-Choc-Bar-1-100x100", "https://www.lighterlife.com/wp-content/uploads/2022/04/600x373px_Foodpacks29.jpg" ],
+    "PageType": 0
+  },
+  {
+    "ID": "4",
+    "URL": "https://www.lighterlife.com/shop/crispy-peanut-bar/",
+    "IngredientsXPath": "//*[@id='tab-description']/p[2]",
+    "PictureXPaths": [ "https://www.lighterlife.com/wp-content/uploads/2021/01/600x373px-Crispy-Peanut-Bar-1.jpg", "https://www.lighterlife.com/wp-content/uploads/2021/09/600x373px_Foodpacks28.jpg" ],
+    "PageType": 0
+  },
+  {
+    "ID": "5",
+    "URL": "https://www.lighterlife.com/shop/nut-fudge-bar/",
+    "IngredientsXPath": "//*[@id='tab-description']/p[2]",
+    "PictureXPaths": [ "https://www.lighterlife.com/wp-content/uploads/2021/04/600x373px-NutFudge-Bar.jpg", "https://www.lighterlife.com/wp-content/uploads/2022/08/LLF_NutFudgeBar-Wrapper_46g.png" ],
+    "PageType": 0
+  },
+  {
+    "ID": "6",
+    "URL": "https://www.lighterlife.com/shop/toffee-bar/",
+    "IngredientsXPath": "//*[@id='tab-description']/p[3]",
+    "PictureXPaths": [ "https://www.lighterlife.com/wp-content/uploads/2021/04/600x373px-Toffee-Bar.jpg", "https://www.lighterlife.com/wp-content/uploads/2022/08/LLF_ToffeeBar-Wrapper_46g-750x750.png" ],
+    "PageType": 0
+  },
+  {
+    "ID": "7",
+    "URL": "https://www.lighterlife.com/shop/crispy-peanut-bar-box-of-4/",
+    "IngredientsXPath": "//*[@id='tab-description']/p[2]",
+    "PictureXPaths": [ "https://www.lighterlife.com/wp-content/uploads/2021/01/600x373px-Crispy-Peanut-Bar-1.jpg" ],
+    "PageType": 0
+  }
+]

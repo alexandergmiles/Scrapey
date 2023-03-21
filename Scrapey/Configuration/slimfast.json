@@ -1,0 +1,64 @@
+[
+  {
+    "ID": "0",
+    "URL": "https://www.slimfast.co.uk/products/Tasty-Balanced-meal-bars/choc-chip-meal-bar",
+    "NameXPath": "//h1[@class='text-left']",
+    "PriceXPath": "",
+    "ScoreXPath": "",
+    "NutrientInformationXPath": "//*[@id='nutrition']/div/table[1]",
+    "MineralsInformationXPath": "//*[@id='nutrition']/div/table[2]",
+    "IngredientsXPath": "//*[@id='ingredients']/div",
+    "PictureXPaths": [ "https://www.slimfast.co.uk/uploads/products/xb95abe29cdd371b.jpg.pagespeed.ic.KM86GXzDNW.webp" ],
+    "PageType": 0
+  },
+  {
+    "ID": "1",
+    "URL": "https://www.slimfast.co.uk/products/Tasty-Balanced-meal-bars/very-berry-meal-bar",
+    "PictureXPaths": [ "https://slimandsave.co.uk/wp-content/uploads/2021/01/crispy-caramel.jpg" ],
+    "PageType": 0
+  },
+  {
+    "ID": "2",
+    "URL": "https://www.slimfast.co.uk/products/Tasty-Balanced-meal-bars/rocky-road-meal-bar",
+    "PictureXPaths": [ "https://slimandsave.co.uk/wp-content/uploads/2021/04/milk-chocolate-truffa-bar.jpg" ],
+    "PageType": 0
+  },
+  {
+    "ID": "3",
+    "URL": "https://www.slimfast.co.uk/products/Tasty-Balanced-meal-bars/choc-orange-meal-bar-multipack",
+    "PictureXPaths": [ "https://slimandsave.co.uk/wp-content/uploads/2021/04/mint-chocolate-truffa-bar.jpg" ],
+    "PageType": 0
+  },
+  {
+    "ID": "4",
+    "URL": "https://www.slimfast.co.uk/products/Tasty-Balanced-meal-bars/choc-chip-meal-bar-single",
+    "NutrientInformationXPath": "/html/body/div/header/div[3]/div/div/div/div/div/div[2]/div/div[1]/table",
+    "MineralsInformationXPath": "/html/body/div/header/div[3]/div/div/div/div/div/div[2]/div/table",
+    "PictureXPaths": [ "https://slimandsave.co.uk/wp-content/uploads/2021/04/orange-truffa-bar.jpg" ],
+    "PageType": 0
+  },
+  {
+    "ID": "5",
+    "URL": "https://www.slimfast.co.uk/products/Tasty-Balanced-meal-bars/Rocky+Road",
+    "NameXPath": "/html/body/div/header/div[3]/section[1]/div/div/div/div[2]/div/div[1]/h1",
+    "PriceXPath": "",
+    "ScoreXPath": "",
+    "NutrientInformationXPath": "/html/body/div/header/div[3]/div/div/div/div/div/div[2]/div/table[1]",
+    "MineralsInformationXPath": "/html/body/div/header/div[3]/div/div/div/div/div/div[2]/div/table[2]",
+    "IngredientsXPath": "/html/body/div/header/div[3]/div/div/div/div/div/div[3]/div",
+    "PictureXPaths": [ "https://slimandsave.co.uk/wp-content/uploads/2021/04/crispy-strawberry-bar.jpg" ],
+    "PageType": 0
+  },
+  {
+    "ID": "6",
+    "URL": "https://www.slimfast.co.uk/products/Tasty-Balanced-meal-bars/choc-orange-meal-bar-single",
+    "NameXPath": "/html/body/div/header/div[3]/section[1]/div/div/div/div[2]/div/div[1]/h1",
+    "PriceXPath": "",
+    "ScoreXPath": "",
+    "NutrientInformationXPath": "/html/body/div/header/div[3]/div/div/div/div/div/div[2]/div/table[1]",
+    "MineralsInformationXPath": "/html/body/div/header/div[3]/div/div/div/div/div/div[2]/div/table[2]",
+    "IngredientsXPath": "/html/body/div/header/div[3]/div/div/div/div/div/div[3]/div",
+    "PictureXPaths": [ "https://slimandsave.co.uk/wp-content/uploads/2021/04/white-chocolate-coated-lemon-bar.jpg" ],
+    "PageType": 0
+  }
+]
