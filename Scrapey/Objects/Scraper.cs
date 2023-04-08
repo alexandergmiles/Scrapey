@@ -124,7 +124,7 @@ namespace Scrapey.Objects
         public HtmlNodeCollection GetAllInstances(string XPath)
         {
             return PageBody.DocumentNode.SelectNodes(XPath);
-        }
+        }      
 
         public List<List<string>> ProcessTable(HtmlNode parentNode, int numberOfColumns)
         {
